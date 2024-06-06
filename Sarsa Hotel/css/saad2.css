@@ -1,1 +1,1134 @@
+* {
+    font-family: "Oswald", sans-serif;
+    padding: 0;
+    margin: 0;
+}
 
+.navbar {
+    width: 100%;
+    position: sticky;
+    height: 6.25rem;
+    background-color: rgb(255, 115, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1.875rem;
+    top: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+.left-nav {
+    width: 10%;
+}
+
+.left-nav img {
+    width: 6.25rem;
+    border-radius: 60%;
+    padding-left: 1.25rem;
+}
+
+.right-nav {
+    width: autoauto; /* Adjust the width */
+    margin-right: 18.125rem; /* Adjust the margin */
+}
+
+.right-nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-nav ul li {
+    list-style: none;
+    margin-right: 2.60rem; /* Adjust the margin */
+}
+
+.right-nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    font-size: 35px; /* Adjust the font size */
+    font-weight: 500;
+}
+
+.right-nav ul li a:hover {
+    color:  rgb(255, 115, 0);
+    background: white;
+    border-radius: 3.125rem;
+}
+
+#home .h1{
+    color: white;
+    font-size: 2.8rem;
+    padding: .75rem;
+    text-align: center;
+}
+#home .p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.span{
+    font-weight: bold;
+    font-size: 1.53rem;
+    color: rgb(255, 255, 255);
+}
+.sign-in-up {
+    border:.125rem;
+    position: absolute;
+    top: 1.5625rem;
+    right: 3.125rem;
+    box-shadow: 0 .25rem .5rem rgb(0 0 0 / 60%);
+   
+}
+
+
+
+/* food */
+.h-primary {
+    font-size: 2.9rem;
+    padding: .75rem;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin-top: 1.875rem;
+}
+
+.h-secondary {
+    font-size: 2.7rem;
+    padding: .75rem;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+
+#services {
+    margin: 2.125rem;
+    display: flex;
+}
+
+#services .box {
+    border: .125rem solid #f49a71; /* Updated border color */
+    margin: 1.5625rem .375rem;
+    padding: 34px;
+    border-radius: 1.25rem; /* Adjusted border-radius for a more curved look */
+    background-color: #ed8045;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 .25rem .5rem rgb(0 0 0 / 92%); /* Added box shadow for a subtle lift */
+}
+
+#services .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+    border-radius:90px;
+    box-shadow: 0 .25rem .5rem rgb(42 41 39 / 92%);
+}
+
+#services .box p {
+    font-family: "Oswald", sans-serif;
+}
+
+/* Feedback */
+
+#feedback::before {
+    position: absolute;
+    content: "";
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    background: url('../img/Feedback1.gif') center center/cover no-repeat;
+    background-size: 50%; /* Adjust the background size as needed */
+    background-position: center; /* Center the background image */
+}
+
+
+#feedback-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 37.5rem; /* Adjust as needed */
+    margin-bottom: 1.875rem;
+    border: 1px solid black; /* Add border */
+    border-radius: .625rem;
+    box-shadow: 0 0 .625rem rgba(0, 0, 0, 0.5); /* Add box shadow */
+    background-color: white; /* Add background color */
+}
+
+#feedback-form input[type="text"],
+#feedback-form textarea {
+    width: 70%;
+    margin: 10px;
+    outline: none;
+    border: 1px solid black; /* Add border */
+    border-radius: 10px;
+    padding: 3px 10px; /* Adjust padding as needed */
+}
+
+#feedback-form textarea {
+    resize: none; /* Prevent resizing of textarea */
+}
+
+#feedback-form button {
+    width: 50%;
+    margin: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Add background color */
+    color: rgb(150, 43, 43);
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add box shadow */
+}
+
+#feedback-form button:hover {
+    background-color: #45a049; /* Change background color on hover */
+}
+
+
+
+
+
+
+
+
+/*  section rooms */
+#rooms-right {
+    height: 31.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    border: px solid black;
+    border-radius: .625rem; /* Add border-radius for rounded corners */
+    box-shadow: 00 .9375rem 3.125rem rgb(0 0 0 / 53%); /* Add box shadow for a subtle lift */
+}
+
+.paras {
+    padding: 0 4.0625rem;
+}
+
+.paras form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: .1875rem;
+}
+
+.paras form input {
+    margin-top: .375rem;
+    padding: .5rem; /* Adjust input padding */
+}
+
+#room-btn {
+    background-color: crimson;
+    color: white;
+    font-size: .9375rem;
+    font-family: "Oswald", sans-serif;
+    border: none;
+    padding: .625rem .9375rem; /* Adjust button padding */
+    border-radius: .3125rem; /* Add border-radius for rounded corners */
+}
+
+#rooms-left {
+    height: 31.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: 9.0625rem;
+    flex-direction: row-reverse;
+    border: px solid black;
+    border-radius: .625rem; /* Add border-radius for rounded corners */
+    box-shadow: 00 .9375rem 3.125rem rgb(0 0 0 / 53%); /* Add box shadow for a subtle lift */
+}
+
+.sectionTag {
+    color: black;
+    font-size: 1.9375rem;
+    font-weight: 600;
+    margin-bottom: .625rem;
+    font-family: "Oswald", sans-serif;
+}
+
+.g {
+    color: green;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.r {
+    color: red;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.sectionsubTag {
+    padding-top: .625rem;
+    font-size: 1.25rem;
+}
+
+.font {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.0625rem;
+    color: rgb(130, 30, 245);
+}
+
+#rooms-left .thumbnail img {
+    padding-left:1.5625rem;
+    width: 43.75rem;
+    border-radius:2.8125rem; /* Add border-radius for rounded corners */
+}
+
+.price-btn {
+    width: 80%;
+    background-color: crimson;
+    color: white;
+    margin-top: 1.25rem;
+    padding: .75rem 0; /* Adjust button padding */
+    border: none;
+    border-radius: .9375rem; /* Add border-radius for rounded corners */
+    box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle lift */
+}
+
+.thumbnail img {
+    padding-right: 3.4375rem;
+    width: 43.75rem;
+    border-radius: 2.8125rem; /* Add border-radius for rounded corners */
+}
+
+.price {
+    color: green;
+    margin-top: 1.25rem;
+    font-size: 1.1875rem;
+    font-weight: 600;
+    border-top: .0625rem solid #ddd; /* Add border at the top */
+    padding-top: .625rem; /* Add padding at the top */
+}
+
+
+
+
+
+/* admin login page */
+
+/* admin login page */
+.admin-box{
+    height: 400px;
+    width: 600px;
+    background-color: #ff5500b0;
+    position: relative;
+    border-radius:20px;
+    top: 200px;
+    left: 450px;
+    box-shadow: 0 .25rem .5rem rgb(109 109 109);
+    font-family: "Oswald", sans-serif;
+}
+.admin-text{
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+    font-size:28px;
+    font-family: "Oswald", sans-serif;
+}
+td {
+    border: none;
+    outline: none; 
+     width: 305px; /* Adjust width as needed */
+    padding: 10x; /* Adjust padding for spacing */
+    font-family: "Oswald", sans-serif;
+   
+}
+#username , #password{
+    border-radius: 10px;
+    padding: 1px 0;
+    background-color: #ffffff;
+    width: 90%;
+    font-size:20px;
+    font-family: "Oswald", sans-serif;
+    margin-right:200px;
+}
+#btn {
+    width: 40%;
+    height:30px;
+    border-radius: 6px;
+    background-color: #fafafadb;
+    color: #FF5722;   
+    display: block;
+    margin: auto; /* Centering the button horizontally */
+    margin-top: 30px; /* Adding space below the button */
+    margin: 6px px; /* Centering the button horizontally */
+    font-family: "Oswald", sans-serif;
+    
+  
+}
+/* room.php */
+#room-home{
+    overflow: hidden;
+}
+#room-home figure{
+     position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite; 
+   
+}
+#room-home figure img{
+     width: 20%;
+    float: left; 
+    height: 550px;
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+#rooms-right{
+  margin-top: 100px;
+}
+
+/* Food.php */
+.container{
+    /* width: 100%; */
+    margin-top: 30px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    justify-content: center;
+   
+}
+.col-lg-3{
+    border: 1px solid #cea7a7;
+    background-color:#d86a2f ;
+    margin: 30px;
+    height: 330px;
+    width: 250px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(25 23 23 / 67%); 
+
+}
+.card img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.card-title{
+    font-size: 20px;
+    padding-top: 5px;
+    font-family: "Oswald", sans-serif;
+}
+.card-text{
+    font-size: 18px;
+    padding-top: 5px;
+    font-family: "Oswald", sans-serif;
+}
+.btnn{
+    background-color: #fff3eb;
+    padding: 7px;
+    border-radius: 25px;
+    outline: none;
+    font-family: "Oswald", sans-serif;
+    border: none;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgb(72 61 61 / 60%);
+    
+}
+/* Cart page */
+
+.containerr::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    background: url('../img/cart.jpg') center center/cover no-repeat;
+    z-index: -1;
+}
+.col-lg-12{
+    /* width: 100%; */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+}
+.col-lg-12 h1{
+    text-align: center;
+    
+    color: white; 
+}
+.rowe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.col-lg-8{
+    width: 52%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    background:rgb(255 250 250 / 50%);
+    width: 80%;
+   border-radius:50px;
+    box-shadow: 0 4px 8px rgb(0 0 0);
+}
+.table{
+    text-align: center;
+}
+.table tr{
+    margin-left: 100px;
+}
+.table tr th{
+    padding: 15px 20px;
+    font-size: 28px;
+    font-family: 'Heebo', sans-serif;
+    
+    /* color: white; */
+    
+}
+.table tr td{
+    font-size: 18px;
+    font-family: 'Heebo', sans-serif;
+    padding: 10px 0;
+    /* color: white; */
+    
+}
+.table tr td input {
+    background-color: rgb(253, 253, 253);
+    border-radius: 4px;
+    color: rgb(70, 57, 57);
+    text-align: center; /* Center-align the text inside input */
+}
+
+
+.col-lg-4{
+    /* width: 20%; */
+    margin-top: 0rem;
+}
+.col-lg-4 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgb(0 0 0);
+    background-color: rgb(231 102 53);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+   
+    
+}
+.col-lg-4 h3{
+    font-size: 28px;
+}
+.col-lg-4 h5{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.btn{
+    padding: 5px;
+    background-color: tomato;
+    border-radius: 8px;
+}
+/*  Booki g hall */
+
+#booking-hall{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 00px;
+    margin-bottom: 100px;
+    margin-top: 150px;
+ 
+ }
+ #booking-hall::before{
+     position: absolute;
+     content: "";
+     height: 100%;
+     width: 100%;
+     z-index: -1;
+     opacity: 0.89;
+     background: url('../img/bookhall2.png') center center/cover no-repeat;
+ 
+ }
+ #booking-hall .h1{
+     /* color: white; */
+     font-size: 2.8rem;
+     padding: 12px;
+     text-align: center;
+ }
+ #booking-hall .p{
+     color: white;
+     text-align: center;
+     font-size: 1.5rem;
+ }
+ .span{
+     font-weight: bold;
+     font-size: 1.53rem;
+     color: black;
+ }
+#book-btn{
+    padding: 13px;
+    
+    background-color: rgb(150, 9, 150);
+    
+    border: 1px solid red;
+    
+}
+#book-btn a{
+text-decoration: none;
+color:black;
+font-size: 20px;
+
+}
+/* contact page */
+.contact-container{
+    display: flex;
+   height: 730px;
+    width: 8%;
+    background-color: #f3f3f3;
+    
+}
+
+.contact1{
+    background: url('../img/contact1.jpg') center center/cover no-repeat;
+    height:150%;
+    width: 100%;
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    flex-basis: 75%;
+
+}
+.book-h1{
+    font-size: 0px;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.book-p{
+    font-size: 14px;
+
+}
+.location i{
+    text-align: center;
+    margin-left: 60px;
+}
+.location {
+    margin-top: 54px;
+}
+.facebook{
+    margin-top: 40px;
+    padding: 8px;
+}
+.facebook i{
+    padding-left: 6px;
+    font-size: 20px;
+}
+.website{
+    margin-top: 30px;
+
+}
+.website p{
+    font-size: 20px;
+}
+.contact2 {
+    display:fixed;
+    flex-basis: 25%;
+    justify-content: center; /* Center horizontally */
+    align-items: centerr; /* Center vertically */
+    flex-direction: column;
+    margin-left: 10%; /* Adjust margin-left as needed */
+}
+    
+    
+
+.contact2-h1{
+    margin-top:0px;
+    margin-bottom: 20px;
+    color: #020101;
+}
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:500px;
+    
+}
+.contact-box form{
+    margin-left: -90px;
+    height: 450px;
+    width: 312px;
+    background-color: rgb(171 168 168 / 83%); /* Adjust the alpha value as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0 0 0);
+}
+.con-btn{
+    width: 608%;
+    border-radius: 20px;
+    background-color: rgb(255 255 255);
+    padding: 4px 0;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 8px rgb(37 29 29 / 60%);
+}
+
+.form-group-con{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.form-group-con label{
+    color: white;
+    padding-right: 10px;
+    font-size: 17px;
+}
+.form-group-con textarea{
+    resize: none;
+}
+/* room.php */
+.room-h2{
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#f1 form table{
+    margin-left: 40px;
+    border: 2px solid #ffffff;
+   display: flex;
+   justify-content: center;
+   width: 58%;
+  border-radius: 10px;
+  padding: 10px;
+     box-shadow: 0 4px 8px rgb(0 0 0 / 60%);
+    
+}
+#f1 form{
+    /* margin-left: 50px; */
+    margin-top: 20px;
+    
+}
+#f1 form table tr th{
+    font-size: 20px;
+    font-weight: 700;
+}
+#f1 form table tr td input{
+    font-size: 20px;
+    font-weight: 700;
+}
+#check-btn{
+    padding: 4px;
+    background-color: #e9780b;
+    color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+     box-shadow: 0 4px 8px rgb(0 0 0 / 60%);
+}
+
+/*  Footer  */
+
+.footer{
+    background-color: #ca6028;
+    padding: 5rem 1rem;
+    line-height: 2rem;
+    margin-top: 20px;
+    border-radius:33px;
+    border: 5px;
+box-shadow: 0 4px 8px rgb(0 0 0);
+font-family: "Oswald", sans-serif;
+    
+
+}
+
+.footer-center{
+    margin-right: 1rem;
+
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+}
+
+.footer-center a:link,
+.footer-center a:visited{
+    display: block;
+    color: #f1f1f1;
+    font-size: 1.4rem;
+    transition: 0.6s;
+    font-family: "Oswald", sans-serif;
+}
+
+.footer-center a:hover{
+    color: #f60091;
+    font-family: "Oswald", sans-serif;
+}
+.footer-center p{
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+.footer-center div{
+    color: #f1f1f1;
+    font-size: 1.4rem;
+    font-family: "Oswald", sans-serif;
+}
+
+.footer-center h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-family: "Oswald", sans-serif;
+}
+.footer-center img {
+    width: 38px; /* Adjust the size of the icon as needed */
+    height: 38px;
+    border-radius: 50%; /* Optional: Round the corners for a circular shape */
+    font-family: "Oswald", sans-serif;
+}
+
+
+
+/* about */
+
+.about-container{
+    display: flex;
+    margin-left: 75px;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 90%;
+    height: 600px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-family: "Oswald", sans-serif;
+     box-shadow: 0 4px 8px rgb(150 68 27); /* Added box shadow for a subtle lift */
+
+}
+.about{
+    display: flex;
+    margin: 30px;
+    font-family: "Oswald", sans-serif;
+}
+.about1 img{
+    border-radius:20px;
+    padding-right: 1px;
+    box-shadow: 0 4px 8px rgb(34 33 33);
+    width: 700px;
+    font-family: "Oswald", sans-serif;
+    
+}
+.about-h1{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+   
+}
+.about-p{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    font-family: "Oswald", sans-serif;
+}
+.about2 .h1{
+
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: 800;
+  font-family: "Oswald", sans-serif;
+  padding-top:6px;
+  margin-bottom: 20px;
+}
+.about-box-1 {
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: center; /* vertically center */
+}
+
+.box1{
+    border: 3px solid white;
+    margin: 25px;
+    border-radius: 20px;
+     box-shadow: 0 4px 8px rgb(150 68 27); /* Added box shadow for a subtle lift */
+    
+}
+.box1-img img{
+    width: 350px;
+    padding: 20px;
+}
+.box1-text{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box1-text-h1{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.box1-text-h1 a{
+    text-decoration: none;
+    color: black;
+}
+.box1-text-p{
+    padding: 4px 0;
+
+}
+.box1-text-p ul li{
+    padding: 3px 0;
+    font-size: 17px;
+}
+/* hall booking */
+.hall-img img{
+width: 100%;
+height: 600px;
+}
+
+
+
+/* login */
+.popup-container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(157 127 127 / 20%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.popup-container .popup{
+    background-color: #000000c9;
+    width: 350px;
+    border-radius: 5px;
+    padding: 20px 25px 30px 25px;
+}
+.popup-container .popup h2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: #6283a5;
+}
+.popup-container .popup h2{
+    border: none;
+    background-color: #ffffff00;
+    outline: none;
+    font-size: 18px;
+    font-weight: 550;
+    color: #ffffff;
+}
+
+.popup-container .popup input{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #ffffffc4;
+    border: none;
+    border-bottom: 2px solid #0000008a;
+    border-radius: 0px;
+    padding: 5px 0;
+    font-weight: 550;
+    font-size: 14px;
+    outline: none;
+}
+.popup-container .popup .login-btn,.popup-container .register .register-btn , .popup-container .forgot button.reset-btn{
+    font-weight: 550;
+    font-size: 15px;
+    color: #f5eaea;
+    background-color: #335270;
+    color: #88614a;
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 5090px;
+}
+.popup-container .popup .forgot-btn{
+    text-align: right;
+}
+.popup-container .popup .forgot-btn button{
+    outline: none;
+    color:#2f2c2c;
+    border: none;
+    font-weight: 450;
+    cursor: pointer;
+}
+#forgot-popup{
+     /*display: flex; */
+
+}
+
+.popup-container .register{
+    background-color: #00000085;
+}
+.popup-container .register h2 , .popup-container .forgot h2{
+    color: #ffffff;
+}
+.popup-container .register input , .popup-container .forgot input{
+    border-bottom-color: #00000054;
+}
+.popup-container .register .register-btn , .popup-container .forgot button.reset-btn{
+    background-color: #ffffff;
+}
+
+.user {
+    color: #30475e;
+    background-color: #f1f1f1;
+    position: absolute;
+    right: 45px;
+    width: 150px; /* Adjust the width as needed */
+    height: 30px;
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    text-align: center; /* Center-align text */
+}
+
+.user a {
+    color: #30475e;
+    font-family: "Oswald", sans-serif;
+    text-align: center; /* Center-align text */
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+/* ... other styles ... */
+.popup-container .popup .login-btn {
+    font-weight: 550;
+    font-size: 15px;
+    color: black;
+    background-color: #dfdfdfbf; /* Set your desired background color */
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+
+.popup-container .popup .login-btn:hover {
+    background-color: #45a049; /* Change color on hover if desired */
+}
+
+.popup-container {
+    z-index: 9999; /* Adjust the z-index value as needed */
+}
+
+
+/* map div css  start*/
+
+.MAP-DIV {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0 10px;
+    border: px solid black; /* Adding border outside */
+    padding: 15px; /* Add padding to create space between content and border */
+border-radius: 23px;
+box-shadow: 0 4px 8px rgb(19 19 19);
+
+}
+
+.m-div {
+    margin: auto;
+    width: 1050px;
+}
+
+.m-div h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+
+
+/* map div css  end*/
+
+.contact-details{
+    
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "Oswald", sans-serif;
+    
+}
+.contact-details img {
+    height: 45px; /* Adjust the height of the image */
+    margin-right: 10px; /* Add some spacing between the image and the text */
+    font-family: "Oswald", sans-serif;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+}
+.address {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: flex-start; /* Align items to the left */
+    margin-top: 200px;
+    font-family: "Oswald", sans-serif;
+}
+
+.address div {
+    margin-bottom: 10px; /* Add some spacing between the numbers */
+    font-family: "Oswald", sans-serif;
+}
