@@ -17,4 +17,6 @@ Go to Chrome> type localhost/(YOUR FILE NAME)
 BOOM! your website is now running.
 <br>
 if there is any CSS changes, please use AI chatbots like blackbox or ChatGPT.
+<br>
+Thankyou for using this project
 
