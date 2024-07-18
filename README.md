@@ -1,6 +1,6 @@
 # Sarsa-Hotel-Hotel-Management-Website-
 <br>
-My Final Year Project of Hotel Management Website using HTML, CSS, JS and MySQL
+My Final Year Project of Hotel Management Website using HTML, CSS, JS PHP and MySQL
 <br>
 Note:
 <br>
